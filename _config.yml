@@ -4,7 +4,7 @@ highlighter:      rouge
 
 # Setup
 title:            开发技术栈
-tagline:          'A Jekyll theme'
+tagline:          '技术经验分享'
 description:      'GitHub <a href="https://github.com/CodeZT/" target="_blank">CodeZT</a>'
 url:              https://github.com/CodeZT/
 baseurl:          # the optional subpath of your site, e.g. "/blog"
