@@ -3,9 +3,9 @@ markdown:         kramdown
 highlighter:      rouge
 
 # Setup
-title:            Hydeout
+title:            开发技术栈
 tagline:          'A Jekyll theme'
-description:      'The <a href="https://github.com/CodeZT/" target="_blank">CodeZT</a>'
+description:      'GitHub <a href="https://github.com/CodeZT/" target="_blank">CodeZT</a>'
 url:              https://github.com/CodeZT/
 baseurl:          # the optional subpath of your site, e.g. "/blog"
                   # NB: This applies to all pages in your Jekyll site.
