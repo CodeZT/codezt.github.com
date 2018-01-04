@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Hello
+title: Hello Word
 excerpt_separator:  <!--more-->
 ---
 
