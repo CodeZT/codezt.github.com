@@ -1,33 +1,26 @@
-# Dependencies
-markdown:         kramdown
-highlighter:      rouge
+# Site settings
+name: CodeZT
+email: 291975252@qq.com
+author: Zhang Tong
+url: http://codezt.github.io
+resume_site: http://codezt.github.io
+github: https://github.com/CodeZT/
+baseurl: "/codezt.github.com"
+description: 个人博客!
+meta_description: 张桐;个人博客;最简单的事是坚持，最难的事还是坚持。
+motto: 
+banner: 最简单的事是坚持，最难的事还是坚持。
 
-# Setup
-title:            开发技术栈
-tagline:          '技术经验分享'
-description:      'GitHub <a href="https://github.com/CodeZT/" target="_blank">CodeZT</a>'
-url:              https://github.com/CodeZT/
-baseurl:          # the optional subpath of your site, e.g. "/blog"
-                  # NB: This applies to all pages in your Jekyll site.
-                  # If you want to move just the blog index pages but keep
-                  # other pages at root, see the paginate_path and
-                  # sidebar_blog_link below.
+permalink: /:categories/:year/:month/:day/:title/
+#permalink: /:year/:month/:day/:title/
+paginate: 10
 
-author:
-  name:           'Zhang Tong'
-  url:            https://github.com/CodeZT/
+exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
 
-paginate:         5
-# paginate_path:    '/page:num'
-                    # Or '/blog/page:num' if you want to move your index pages
+github_username: CodeZT
 
-plugins:
-  - jekyll-feed
-  - jekyll-gist
-  - jekyll-paginate
+# Build settings
+markdown: kramdown
 
-# Custom vars
-version:            1.0.0
-sidebar_home_link:  true
-github:
-  repo:             https://github.com/CodeZT/codezt.github.com
+baidu_analysis: 94be4b0f9fc5d94cc0d0415ea6761ae9
+
