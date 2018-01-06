@@ -37,7 +37,7 @@ header: 打赏
 <hr>
 您可以选择手机微信扫一扫
 
-![微信二维码付款给Freud]({{ '/styles/images/weixin.png' | prepend: site.baseurl }})
+<img src="{{ '/styles/images/weixin.jpg' | prepend: site.baseurl }}" alt="微信支付二维码付款给CodeZT" width="310" />
 
 <br>
 <br>
