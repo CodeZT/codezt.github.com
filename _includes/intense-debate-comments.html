@@ -1,11 +1,19 @@
-{% if page.comments == true %}
-    {% if site.intensedebate_comments == true %}
+{% if site.intensedebate_comments == true %}
+    {% if page.comments == true %}
+    <div class="row" style="margin-top:10px;">
+        <div class="col-md-12" role="main">
+            <div class="panel docs-content">
+                <div class="wrapper">
+                    <span id="IDCommentsPostTitle" style="display:none"></span>
+                </div>
+            </div>
+        </div>
+    </div>
     <script type="text/javascript">
         var idcomments_acct = 'd08c93e59322375c781a7645b5d18116';
         var idcomments_post_id;
         var idcomments_post_url;
     </script>
-    <span id="IDCommentsPostTitle" style="display:none"></span>
     <script type='text/javascript' src='https://www.intensedebate.com/js/genericCommentWrapperV2.js'></script>
     {% endif %}
 {% endif %}
