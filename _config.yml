@@ -5,14 +5,14 @@ author: Zhang Tong
 url: http://codezt.github.io
 resume_site: http://codezt.github.io
 github: https://github.com/CodeZT/
-baseurl: "/codezt.github.com"
+baseurl: ""
 description: 个人博客!
 meta_description: 张桐;个人博客;最简单的事是坚持，最难的事还是坚持。
 motto: 
 banner: 最简单的事是坚持，最难的事还是坚持。
 
-permalink: /:categories/:year/:month/:day/:title/
-#permalink: /:year/:month/:day/:title/
+#permalink: /:categories/:year/:month/:day/:title/
+permalink: /:year/:month/:day/:title/
 paginate: 10
 
 exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
