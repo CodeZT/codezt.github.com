@@ -64,7 +64,7 @@ title:  首页
                   <ol class="breadcrumb">
                     <li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
                     <li style="float:right;"><span>{{ post.date | date: "%F" }}</span></li>
-                    <li style="float:right;"><span>posted in [{{post.tag}}]</span></li>
+                    <li style="float:right;"><span>posted in [{{post.tags}}]</span></li>
                   </ol>
                   {% if forloop.last %}
                     </ul>
