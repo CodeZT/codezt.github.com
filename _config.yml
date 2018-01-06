@@ -24,3 +24,6 @@ markdown: kramdown
 
 baidu_analysis: 1a8f2c15f158c1566c34c52080b99c09
 
+
+# intensedebate_comments
+intensedebate_comments: true
