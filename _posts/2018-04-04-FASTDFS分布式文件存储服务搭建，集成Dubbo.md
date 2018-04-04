@@ -20,15 +20,15 @@ comments: true
 
 ### 下面说一下搭建步骤
 
-#### 一、项目搭建，创建项目的步骤就不多说了，相信大家都会。如果这个不会，那就别往下看了。这里就附上项目的结构图
+#### 项目搭建，创建项目的步骤就不多说了，相信大家都会。如果这个不会，那就别往下看了。这里就附上项目的结构图
 
-<img src="{{ '/assist/images/1522829240778.jpg' | prepend: site.baseurl }}" width="310" />
+<img src="{{ '/assist/images/1522829240778.jpg' | prepend: site.baseurl }}" width="400" />
 
 按照dubbo服务的角色来分，分为服务提供者和消费者；按照项目结构，另外多了一层api层，即对外暴漏的RPC接口。
 
-1、首先定义接口
+首先定义接口
 
-<img src="{{ '/assist/images/1522829654944.jpg' | prepend: site.baseurl }}" width="310" />
+<img src="{{ '/assist/images/1522829654944.jpg' | prepend: site.baseurl }}" width="400" />
   
 我这里就先定义了一个接口，提供上传、下载、查询、获取完整访问url接口。
 
@@ -116,5 +116,11 @@ comments: true
         }
     </code>
   </pre>
+
+2、创建服务提供者
+
+  <img src="{{ '/assist/images/1522830786953.jpg' | prepend: site.baseurl }}" width="400" />
+
+  
 
 > *以上为个人做项目，整理出来的，欢迎指正。
