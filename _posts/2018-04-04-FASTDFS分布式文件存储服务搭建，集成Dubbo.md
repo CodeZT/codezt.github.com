@@ -13,8 +13,8 @@ comments: true
 
 为什么要用FASTDFS，就不多说了；首先来看一下使用FASTDFS的准备工作
 
-> * 首先安装Fastdfs服务，网上一大堆教程，这里给出我用的安装环境，参考此文章(https://my.oschina.net/LevelCoder/blog/1648818)
-(https://blog.csdn.net/m0_37797991/article/details/73381739)
+> * 首先安装Fastdfs服务，网上一大堆教程，这里给出我用的安装环境，参考此文章[https://my.oschina.net/LevelCoder/blog/1648818](https://my.oschina.net/LevelCoder/blog/1648818)
+[https://blog.csdn.net/m0_37797991/article/details/73381739](https://blog.csdn.net/m0_37797991/article/details/73381739)
 > * 因公司原先使用硬存的方式存储文件，这就造成了一大堆问题，首先是性能，文件多了，存取不便；第二就是不易于管理，没有统一的管理接口。
 > * 现搭建一个分布式文件存储服务，使用Spring Boot、Dubbo、FastDFS、Redis等框架进行整合。
 
